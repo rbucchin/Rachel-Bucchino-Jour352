@@ -4,44 +4,106 @@ body{
   color: #444;
   font-weight:400;
 }
-strong {
+#title {
   text-transform: uppercase;
   font-size: 1.5em;
   color: #33485e;
-  font-weight: 400;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
-H1 {
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+#name {
   font-size: 3em;
   color: #33485e;
   text-transform:uppercase;
   text-align:center;
-
+  border-bottom: 1px solid #33485e;
+  width:60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
-H2 {
+.sectionheader {
   font-size: 1.5em;
   color:#fff;
   background-color: #33485e;
   text-transform:uppercase;
-  font-weight:400;
+  font-weight:400px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width:70%;
+  min-width: 300px;
 }
 
-H3{
-  font-weight:600;
+.jobtitle{
+  font-weight:600px;
   font-size: 1.5em;
 }
 
-H4{
+.organization{
   font-weight:400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
-H5{
+.date{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-h2.ul {
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.menu {
+  text-align: center;
+}
+
+#degrees{
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+#do{
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.menu li {
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+.ul {
   font-size: 1em;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
