@@ -1,0 +1,57 @@
+#container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.headline {
+  font-size:3em;
+  font-weight:700;
+  text-align:center;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.byline{
+  font-size:1em;
+  text-transform:uppercase;
+  font-family: helvetica, arial, sans-serif;
+  text-align:center;
+}
+
+p{
+  font-size:1em;
+  font-family:georgia,times,serif;
+  line-height:100%;
+}
+
+h2{
+  font-size:2em;
+  font-weight:600;
+  text-align:left;
+  font-family: helvetica, arial, sans-serif;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  text-align:center;
+  background-color: black;
+  color:white;
+}
+
+#caption{
+  color:#b3b3b3;
+  font-size:1em;
+  font-family:georgia,times,serif;
+  text-align:center;
+}
+
+.col-sm{
+  font-size:1em;
+  font-family:georgia,times,serif;
+  line-height:100%;
+  text-align:center;
+}
