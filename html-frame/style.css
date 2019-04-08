@@ -36,6 +36,7 @@ img{
   margin-right: auto;
 }
 
+
 footer{
   text-align:center;
   background-color: black;
@@ -46,7 +47,7 @@ footer{
   color:#b3b3b3;
   font-size:1em;
   font-family:georgia,times,serif;
-  text-align:center;
+  margin-left: 100px;
 }
 
 .col-sm{
