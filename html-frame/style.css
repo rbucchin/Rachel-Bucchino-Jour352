@@ -1,6 +1,10 @@
+
+
+
 #container {
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
+  max-width: 1000px;
 }
 
 .headline {
@@ -34,6 +38,8 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+  max-width: 1000px;
 }
 
 
