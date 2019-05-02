@@ -7,7 +7,7 @@
 
 .headline {
   font-size:3em;
-  font-weight:700;
+  font-weight:700 !important;
   text-align:center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -20,9 +20,9 @@
 
 .byline{
   font-size:1em;
+  font-weight:1000;
   font-family: 'Montserrat', sans-serif;
   text-align:center;
-  font-weight:bold;
 }
 
 .star-top{
@@ -32,6 +32,8 @@
 
 .star-headline{
   width:15px;
+  margin: 0 auto;
+  border-left: 5px;
 }
 
 .stars-together{
@@ -49,13 +51,21 @@ ul.navbar-nav {
 
 .navbar {
  font-family: 'Montserrat', sans-serif;
+}
 
+.stack-image{
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
 }
 
 p{
  text-align:left;
  line-height:180%;
- font-family: 'PT Serif', sans-serif;
+ font-family:'PT Serif', serif;
+ font-size: 1em;
+ color: #000000;
 }
 
 .intro-text{
@@ -83,9 +93,11 @@ p{
 
 h2{
   font-size:2em;
-  font-weight:600;
+  font-weight:700;
   text-align:left;
-  font-family: helvetica, arial, sans-serif;
+  padding-top: 20px;
+  width:100;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -104,23 +116,25 @@ a:hover{
   color:#0052a5;
 }
 
-.footer-text{
+.footer-text p{
   color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 footer{
   height: 100px;
   padding:25px;
-  text-align:center;
   background-color: #000000;
-  color:white;
 }
 
-#caption{
-  color:#b3b3b3;
-  font-size:1em;
-  font-family:georgia,times,serif;
-  margin-left: 100px;
+.caption{
+ width:100%;
+ max-width:900px;
+ margin:0 auto;
+ padding-bottom:30px;
+ font-family: 'Montserrat', sans-serif;
+ color:#999;
 }
 
 .col-sm{
@@ -128,4 +142,23 @@ footer{
   font-family:georgia,times,serif;
   line-height:100%;
   text-align:center;
+}
+
+.graphic-container h2{
+  font-size: 2em;
+  text-align: center;
+}
+
+.graphic-container {
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Montserrat', sans-serif;
+ margin:0 auto;
+}
+
+.graphic-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
 }
