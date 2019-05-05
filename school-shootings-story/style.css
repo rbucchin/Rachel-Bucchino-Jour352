@@ -33,6 +33,7 @@
 .star-headline{
   width:15px;
   margin: 0 auto;
+  margin-left: 15px;
   border-left: 5px;
 }
 
@@ -40,6 +41,12 @@
   margin: 0 auto;
 }
 
+.star-h2{
+  width:15px;
+  margin: 0 auto;
+  margin-left: 5px;
+  border-left: 5px;
+}
 .bg-dark {
  background:#000 !important;
 }
@@ -93,7 +100,7 @@ p{
 
 h2{
   font-size:2em;
-  font-weight:700;
+  font-weight:700 !important;
   text-align:left;
   padding-top: 20px;
   width:100;
@@ -129,20 +136,14 @@ footer{
 }
 
 .caption{
- width:100%;
- max-width:900px;
- margin:0 auto;
- padding-bottom:30px;
- font-family: 'Montserrat', sans-serif;
- color:#999;
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-bottom:30px;
+  font-family: 'Montserrat', sans-serif;
+  color:#999;
 }
 
-.col-sm{
-  font-size:1em;
-  font-family:georgia,times,serif;
-  line-height:100%;
-  text-align:center;
-}
 
 .graphic-container h2{
   font-size: 2em;
@@ -161,4 +162,5 @@ footer{
 .graphic-text{
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
+  font-weight: bold;
 }
