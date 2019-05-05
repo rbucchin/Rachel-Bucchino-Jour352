@@ -1,0 +1,157 @@
+#container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.navbar-brand{
+  font-family:'Merriweather Sans', sans-serif;
+  font-size:1.25em;
+  color: #ffffff
+}
+
+ul.navbar-nav {
+ margin-left:50%;
+}
+
+.navbar {
+ font-family: 'Merriweather Sans', sans-serif;
+}
+
+.prime-top{
+  width:40px;
+  margin-right: 5px;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("images/amazon-headquarters.jpg");
+  height: 100%;
+  max-width: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline {
+  font-size:3em;
+  font-weight:700;
+  text-align:center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.byline{
+  font-size:1em;
+  font-weight:700;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align:center;
+}
+
+.prime-headline{
+  width:150px;
+  margin: 0 auto;
+}
+
+.intro-text{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.25em;
+  max-width: 800px;
+  margin-top:25px;
+  margin-bottom:25px;
+  text-align:left;
+  font-weight:700;
+}
+
+.intro-photo{
+    width:500px;
+    height: 400px;
+    max-width:900px;
+    margin:0 auto;
+    padding-top:30px;
+}
+
+.caption{
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-bottom:30px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color:#999;
+}
+
+p{
+ text-align:left;
+ line-height:180%;
+ font-family:'Open Sans', serif;
+ font-size: 1em;
+ color: #000000;
+}
+
+h2{
+  color:#ff9900;
+  font-size:2em;
+  font-weight:700;
+  text-align:left;
+  padding-top: 20px;
+  width:100;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h3{
+  color:#32CD32;
+  font-size:1.55em;
+}
+
+.first-photo{
+  float: right;
+}
+
+.addition-images{
+  width: 250px;
+  height: 100px;
+}
+
+.col-sm-title{
+  font-family:'Merriweather Sans', serif;
+  font-size: 1.5em;
+  color:#146eb4;
+  font-weight: 1500;
+}
+
+.col-sm-bio{
+  font-family:'Open Sans', serif;
+  font-size: 0.85em;
+  color: #696969;
+}
+
+.graphic-container {
+ padding-top:30px;
+ padding-bottom:30px;
+ border-top:1px solid #cdcdcd;
+ border-bottom:1px solid #cdcdcd;
+ font-family: 'Merriweather Sans', sans-serif;
+ margin:0 auto;
+}
+
+.blue{
+  color:#146eb4;
+}
+
+.yellow{
+  color:#ff9900;
+}
+
+.footer-text p{
+  color:#ffffff;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+}
+
+footer{
+  height: 100px;
+  padding:25px;
+  background-color: #000000;
+}
