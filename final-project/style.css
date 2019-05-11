@@ -16,6 +16,10 @@ html {
   font-size: 75px;
 }
 
+.addition-images:hover{
+  opacity: .5;
+}
+
 .scroll-button:hover{
   opacity: .5;
 }
@@ -27,7 +31,7 @@ html {
 }
 
 ul.navbar-nav {
- margin-left:50%;
+ margin-left:65%;
 }
 
 .navbar {
@@ -95,6 +99,8 @@ body, html {
   max-width:900px;
   margin:0 auto;
   padding-bottom:30px;
+  padding-left: 200px;
+  padding-right: 200px;
   font-family: 'Merriweather Sans', sans-serif;
   color:#999;
 }
@@ -122,13 +128,9 @@ h3{
   font-size:1.55em;
 }
 
-.first-photo{
-  float: right;
-}
-
 .addition-images{
   width: 250px;
-  height: 100px;
+  height: 175px;
 }
 
 .col-sm-title{
@@ -151,6 +153,7 @@ h3{
  border-bottom:1px solid #cdcdcd;
  font-family: 'Merriweather Sans', sans-serif;
  margin:0 auto;
+ width: 75%;
 }
 
 .blue{
@@ -168,7 +171,8 @@ h3{
 }
 
 footer{
-  height: 100px;
-  padding:25px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #000000;
 }
