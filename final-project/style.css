@@ -1,22 +1,29 @@
-@media only screen and (max-width: 480px) {
- p {
-   font-size: 14px;
+/*Extra Small devices (phones, 768 px and down) */
+@media (max-width: @screen-xs-max) {
+  p{
+    font-size: 14px;
+  }
  }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+  p{
+    font-size: 16px;
+  }
 }
 
-@media only screen and (min-width: 481px) {
- p {
-   font-size: 16px;
- }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+  p{
+    font-size: 18px;
+  }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1200px) {
- p {
-   font-size: 18px;
- }
- div {
-  width: 30%;
-}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+  p{
+    font-size: 19px;
+  }
 }
 
 html {
@@ -97,6 +104,10 @@ body, html {
   margin: 0 auto;
 }
 
+.prime-headline:hover{
+  opacity: .5;
+}
+
 .intro-text{
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 1.25em;
@@ -115,14 +126,17 @@ body, html {
     padding-top:30px;
 }
 
-.caption{
+figcaption{
   width:100%;
   max-width:900px;
   margin:0 auto;
   padding-bottom:30px;
   font-family: 'Merriweather Sans', sans-serif;
   color:#999;
-  text-align: center;
+}
+
+hr {
+  width: 100%;
 }
 
 p{
@@ -134,8 +148,18 @@ p{
 }
 
 a:link{
-  color:##848689;
-  text-decoration: none;
+  text-decoration:none;
+  color:#e0162b;
+}
+
+a:visited{
+  text-decoration:none;
+  color:#999;
+}
+
+a:hover{
+  text-decoration:none;
+  color:#0052a5;
 }
 
 h2{
@@ -187,11 +211,6 @@ h3{
 
 .yellow{
   color:#ff9900;
-}
-
-.row-2{
-  background-color: #e8e3de;
-  width: 100%;
 }
 
 .footer-text p{
